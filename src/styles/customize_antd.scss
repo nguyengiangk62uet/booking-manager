@@ -1,0 +1,35 @@
+/**
+ * Customize AntD components
+ */
+
+// Result
+.ant-result {
+  &.app-result-page {
+    height: 100vh;
+    width: 100vw;
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
+
+// Form, Input...
+.ant-input,
+.ant-select-selection,
+.ant-input-number {
+  &:hover,
+  &:focus-within,
+  &:focus {
+    @include border-box-shadow-primary;
+  }
+}
+
+.ant-cascader-picker:focus .ant-cascader-input,
+.ant-cascader-picker-label:hover + .ant-cascader-input {
+  @include border-box-shadow-primary;
+}
+
+// Menu
+.ant-dropdown-menu-item:hover,
+.ant-dropdown-menu-submenu-title:hover {
+  background: $color-background;
+}

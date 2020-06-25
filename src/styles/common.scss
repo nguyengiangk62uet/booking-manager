@@ -1,0 +1,188 @@
+@import 'styles/variables.scss';
+
+// Layout
+body {
+  color: #333333;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+}
+
+a:active,
+a:hover {
+  text-decoration: none;
+  outline: 0;
+}
+
+.ant-dropdown-menu-item i {
+  font-size: 12px;
+  vertical-align: 0.125em;
+}
+
+.product-img {
+  width: 120px;
+  height: 120px;
+}
+
+// Margin
+.m-base {
+  margin: $align-base !important;
+}
+.mx-base {
+  margin-left: $align-base !important;
+  margin-right: $align-base !important;
+}
+.my-base {
+  margin-top: $align-base !important;
+  margin-bottom: $align-base !important;
+}
+.mt-base {
+  margin-top: $align-base !important;
+}
+.mb-base {
+  margin-bottom: $align-base !important;
+}
+.ml-base {
+  margin-left: $align-base !important;
+}
+.mr-base {
+  margin-right: $align-base !important;
+}
+.mt-half {
+  margin-top: ($align-base * 0.5) !important;
+}
+.mb-half {
+  margin-bottom: ($align-base * 0.5) !important;
+}
+.ml-half {
+  margin-left: ($align-base * 0.5) !important;
+}
+.mr-half {
+  margin-right: ($align-base * 0.5) !important;
+}
+.mx-half {
+  margin-left: ($align-base * 0.5) !important;
+  margin-right: ($align-base * 0.5) !important;
+}
+.my-half {
+  margin-top: ($align-base * 0.5) !important;
+  margin-bottom: ($align-base * 0.5) !important;
+}
+
+// Padding
+.p-base {
+  padding: $align-base !important;
+}
+.px-base {
+  padding-left: $align-base !important;
+  padding-right: $align-base !important;
+}
+.py-base {
+  padding-top: $align-base !important;
+  padding-bottom: $align-base !important;
+}
+.pt-base {
+  padding-top: $align-base !important;
+}
+.pb-base {
+  padding-bottom: $align-base !important;
+}
+.pl-base {
+  padding-left: $align-base !important;
+}
+.pr-base {
+  padding-right: $align-base !important;
+}
+.pt-half {
+  padding-top: ($align-base * 0.5) !important;
+}
+.pb-half {
+  padding-bottom: ($align-base * 0.5) !important;
+}
+.pl-half {
+  padding-left: ($align-base * 0.5) !important;
+}
+.pr-half {
+  padding-right: ($align-base * 0.5) !important;
+}
+.px-half {
+  padding-left: ($align-base * 0.5) !important;
+  padding-right: ($align-base * 0.5) !important;
+}
+.py-half {
+  padding-top: ($align-base * 0.5) !important;
+  padding-bottom: ($align-base * 0.5) !important;
+}
+
+// Scrollbar
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: $color-background;
+}
+::-webkit-scrollbar-thumb {
+  background: $color-border;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: $color-disable;
+}
+
+// Text typography
+.text-primary {
+  color: $color-primary !important;
+  font-weight: $font-weight-regular;
+}
+.text-error {
+  color: $color-error !important;
+  font-weight: $font-weight-regular;
+}
+.text-warning {
+  color: $color-warning !important;
+}
+.text-pending {
+  color: $color-pending !important;
+}
+.text-success {
+  color: $color-success !important;
+}
+.text-link {
+  color: $color-link !important;
+}
+.text-h1 {
+  @include typo-h1;
+}
+.text-h2 {
+  @include typo-h2;
+}
+.text-h3 {
+  @include typo-h3;
+}
+.text-16 {
+  @include typo-body-16;
+}
+.text-14 {
+  @include typo-body-14;
+}
+.text-caption {
+  @include typo-caption;
+}
+.text-medium {
+  font-weight: $font-weight-medium !important;
+}
+.text-bold {
+  font-weight: $font-weight-bold !important;
+}
+.text-normal {
+  font-weight: $font-weight-regular !important;
+}
+.text-break {
+  word-break: break-word;
+}
+
+// Whitespace
+.white-space-pre {
+  white-space: pre;
+}
+
+// Customize style for components

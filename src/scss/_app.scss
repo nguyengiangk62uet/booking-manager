@@ -1,0 +1,34 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+.anticon {
+  vertical-align: 0.125em;
+}
+
+.sticky-bottom {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  padding: 16px 24px;
+  text-align: right;
+  z-index: 5;
+
+  button {
+    width: 164px;
+    height: 40px;
+  }
+}
+
+.dynamic-delete-button {
+  cursor: pointer;
+  position: relative;
+  top: 4px;
+  font-size: 24px;
+  color: #999;
+  transition: all 0.3s;
+}
+.dynamic-delete-button:hover {
+  color: #777;
+}
