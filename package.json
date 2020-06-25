@@ -6,7 +6,7 @@
     "antd": "^4.0.0",
     "axios": "^0.18.0",
     "babel-plugin-import": "^1.13.0",
-    "bootstrap": "^4.2.1",
+    "bootstrap": "^4.3.1",
     "customize-cra": "^0.9.1",
     "font-awesome": "^4.7.0",
     "history": "^4.7.2",
